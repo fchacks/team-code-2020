@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!-- Icon on tab name -->
+   <link rel="icon" type="image/jpeg" href="symbol.jpeg">
+   <!-- Name of tab -->
+   <title>Get Involved</title>
+   <!-- Style sheet -->
+   <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <!-- Logo -->
+    <img src = "symbol.jpeg" width="10px" height="100px" class="center">
+    <!-- Navigation bar -->
+    <ul class="a"> 
+  <li class="a"><a href="index.html">Welcome</a></li> 
+  <li class="a"><a href="stories.html">Stories</a></li> 
+  <li class="a"><a href="motivation.html">Motivation</a></li> 
+  <li class="a"><a href="humor.html">Humor</a></li>
+  <li class="a"><a class="active" href="getinvolved.html">Get Involved</a></li>
+  </ul>
+  <br>
+  <!-- Box with text and form for posting-->
+  <div class="div02">
+      <h1>Get Involved</h1>
+      <p>Share your experiences, your deep thoughts, and your bad puns with everyone. Spread some light and love around you. Interact with others in a safe and accepting community.
+        <!-- Submit posts form -->
+      <h2>Submit Your Posts Here:</h2>
+    <form action="thankyou.html">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="roomnumber">Room Number:</label><br>
+  <input type="text" id="roomnumber" name="roomnumber"><br><br>
+  <label for="email">Enter your email:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="post">Write or link your post here:</label><br>
+  <input type="text" id="post" name="post"><br><br>
+<label for="type">Check which category your post falls into:</label><br>
+<input type="radio" id="story" name="category" value="story">
+  <label for="story">Story</label><br>
+  <input type="radio" id="motivation" name="category" value="motivation">
+  <label for="motivation">Motivation</label><br>
+  <input type="radio" id="humor" name="category" value="humor">
+  <label for="humor">Humor</label><br><br>
+  <input type="submit" value="Submit">
+</form> 
+<!-- Text explaining second form for meeting other patients -->
+<h2> Sign up for a virtual meeting with other patients! Meet new people, support others, and build new friendships that will last a lifetime!</h2>
+<p>More information will be emailed to you later.</p>
+<!-- Meet other patients form -->
+<form action="meetpeoplesubmit.html">
+<label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="roomnumber">Room Number:</label><br>
+  <input type="text" id="roomnumber" name="roomnumber"><br><br>
+  <label for="email">Enter your email:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+  <input type="submit" value="Submit">
+</form>
+    </div>
+  </body>
+</html>

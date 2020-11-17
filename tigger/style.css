@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+
+html {
+  display: grid;
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+  display: grid;
+  background-color:white;
+  font-family: "Sofia";
+}
+
+.header {
+  width:50%;
+  position: fixed;
+  text-align: center;
+  right: 0px;
+  top: 10%;
+  height: 100%;
+  font-size: 20px;
+}
+
+
+
+.chatbox {
+  display: absolute;
+  background: linear-gradient(to bottom left, #79C7C5 40%, white 100%);
+  font-family: 'Lato';
+  position: absolute;
+  border-radius: 25px;
+  overflow: auto;
+  top:10px;
+  height: 92%;
+  width: 50%;
+  float: right;
+  bottom: 50px;
+}
+
+.botBubble {
+  display: block;
+  position: relative;
+  left: 50px;
+  float:left;
+  max-width: 50%;
+  margin-bottom: 5px;
+  color: black;
+  font-size: 1em;
+  padding: 10px 10px 10px 12px;
+  border-radius: 20px;
+  background-color: rgb(194, 216, 245);
+  clear: both;
+}
+
+.userBubble {
+  display: block;
+  position: relative;
+  right: 50px;
+  max-width: 50%;
+  float: right;
+  clear: both;
+  margin-bottom: 5px;
+  color: black;
+  font-size: 1em;
+  padding: 10px 10px 10px 12px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: right;
+}
+
+.bottom-bar {
+  position: fixed;
+  width: 57%;
+  height: 55px;
+  bottom: 0px;
+  background: white;
+  border-radius: 0 0 10px 10px;
+}
+
+input {
+  padding: 15px;
+  width: 75%;
+  position: relative;
+  border: 0;
+  top: 13px;
+  bottom: 13px;
+  background: white;
+  color: gray;
+}
+
+input:focus {
+  color: gray;
+  outline: 0;
+}
+
+.sendButton {
+  border: 0;
+  font-size: 1em;
+  color: gray;
+  top:  50px;
+  opacity: 0.9;
+  right: 5%;
+  bottom: 50px;
+  cursor: pointer;
+  outline: 0;
+}
+
